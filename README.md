@@ -2,9 +2,11 @@
 
 A Java JSP-based Web Application
 
+
 📖 Project Description
 
 The Personal Finance Management System is a secure web-based application that helps users manage expenses, budgets, and financial goals efficiently. Built using Java, JSP, Servlets, JDBC, and MySQL, the system ensures data consistency, transaction safety, and a clean user-friendly interface while following MVC and DAO architecture principles.
+
 
 ❓ Problem Statement
 
@@ -17,6 +19,7 @@ Traditional systems lack transaction safety
 Risk of data inconsistency during financial updates
 
 Need for a secure, reliable, and user-friendly finance management system
+
 
 🎯 Project Objectives
 
@@ -32,14 +35,16 @@ Maintain relational integrity using foreign keys
 
 Implement secure authentication and session handling
 
+
 ✨ System Features
 🔐 Authentication & Security
 
-User registration and login
+--> User registration and login
 
-Role-based access (User / Admin)
+--> Role-based access (User / Admin)
 
-Secure session management and logout
+--> Secure session management and logout
+
 
 💸 Expense Management
 
@@ -49,6 +54,7 @@ Category-based tracking
 
 Expense summary on dashboard
 
+
 📊 Budget Management
 
 Add, view, and delete budgets
@@ -56,6 +62,7 @@ Add, view, and delete budgets
 Date-based budget planning
 
 Budget safety indication
+
 
 🎯 Goal Management
 
@@ -71,6 +78,7 @@ Visual progress bar
 
 Savings history tracking
 
+
 📈 Dashboard
 
 Total expenses overview
@@ -81,13 +89,18 @@ Total goals count
 
 Graphical visualization using charts
 
+
 🧩 Admin Functionalities
 
-View all registered users
+-> View all registered users
 
-Secure user deletion
+-> Secure user deletion
+
+
 
 🛠️ Technologies Used
+
+
 Frontend
 
 JSP
@@ -99,6 +112,7 @@ CSS3
 Chart.js
 
 Backend
+
 
 Java (Servlets)
 
@@ -116,8 +130,9 @@ Server
 
 Apache Tomcat
 
-🧱 System Architecture
-3-Tier Architecture
+
+🧱 System Architecture: 3-Tier Architecture
+
 Presentation Layer
 
 JSP pages
@@ -137,22 +152,25 @@ MySQL database
 JDBC connectivity
 
 Benefits:
-Loose coupling, scalability, maintainability
+-> Loose coupling, scalability, maintainability
+
 
 🔄 Transaction Management
 
-AutoCommit disabled for critical financial operations
+-> AutoCommit disabled for critical financial operations
 
-Commit executed only after all operations succeed
+-> Commit executed only after all operations succeed
 
-Rollback performed on any failure
+-> Rollback performed on any failure
 
-Applied in goal savings and budget-related operations
+-> Applied in goal savings and budget-related operations
 
 Ensures:
-Atomicity, Consistency, Reliability
+-> Atomicity, Consistency, Reliability
+
 
 ✔ Validation Strategy
+
 Client-Side Validation
 
 Required field checks
@@ -169,16 +187,19 @@ Oversave prevention
 
 Secure request handling
 
+
 🗄️ Database Design
-Design Rationale
 
-Normalized tables to avoid redundancy
+-> Design Rationale
 
-Foreign key constraints to maintain relationships
+-> Normalized tables to avoid redundancy
 
-Cascade deletes for data integrity
+-> Foreign key constraints to maintain relationships
 
-Separate savings history table for audit trail
+-> Cascade deletes for data integrity
+
+-> Separate savings history table for audit trail
+
 
 Key Tables
 
@@ -192,25 +213,30 @@ goals
 
 goal_savings
 
+
 🚧 Key Challenges Faced & Solutions
-Challenge	Solution
-Oversaving goals	Server-side validation with rollback
-Partial database updates	JDBC transaction management
-Table not found errors	Centralized SQL schema
-SQL injection risk	PreparedStatement usage
+
+1. Challenge	Solution
+2. Oversaving goals	Server-side validation with rollback
+3. Partial database updates	JDBC transaction management
+4. Table not found errors	Centralized SQL schema
+5. SQL injection risk	PreparedStatement usage
+
+
 🚀 Innovation / Extra Effort
 
-Oversave prevention logic
+1. Oversave prevention logic
 
-Auto goal achievement detection
+2. Auto goal achievement detection
 
-Savings history tracking
+3. Savings history tracking
 
-Clean DAO-based architecture
+4. Clean DAO-based architecture
 
-Robust exception handling
+5. Robust exception handling
 
-Transaction-safe financial updates
+6. Transaction-safe financial updates
+
 
 📂 Project Structure
 
@@ -234,33 +260,37 @@ PersonalFinanceManager/
 │
 └── README.md
 
+
 🚀 How to Run the Project
 
-Import project into Eclipse or IntelliJ
+1. Import project into Eclipse or IntelliJ
 
-Configure Apache Tomcat server
+2. Configure Apache Tomcat server
 
-Run the provided SQL file to create database and tables
+3. Run the provided SQL file to create database and tables
 
-Update database credentials in DBConnection.java
+4. Update database credentials in DBConnection.java
 
-Deploy and run on server
+5. Deploy and run on server
 
-Access URL: http://localhost:8080/PersonalFinanceManager/
+6. Access URL: http://localhost:8080/PersonalFinanceManager/
+   
 
 📌 Expected Outcomes
 
-Zero partial financial transactions
+-> Zero partial financial transactions
 
-Accurate budget and goal tracking
+-> Accurate budget and goal tracking
 
-Improved financial discipline for users
+-> Improved financial discipline for users
 
-Scalable and maintainable system design
+-> Scalable and maintainable system design
+
 
 🏁 Conclusion
 
 The Personal Finance Management System provides a robust, secure, and scalable solution for managing personal finances. By following industry-standard practices such as MVC architecture, DAO pattern, transaction management, and strong validation, the project demonstrates technical proficiency and practical problem-solving skills.
+
 
 📸 Screenshots
 
@@ -271,6 +301,8 @@ The Personal Finance Management System provides a robust, secure, and scalable s
 <img width="1280" height="1392" alt="Screenshot 2026-01-05 223912" src="https://github.com/user-attachments/assets/82d636a3-6ddc-4974-a928-711ca258a5b0" />
 
 <img width="1280" height="1392" alt="Screenshot 2026-01-05 223944" src="https://github.com/user-attachments/assets/1ef1e023-f0fa-4a87-a8fd-633cbf85bece" />
+
+<img width="2201" height="965" alt="image" src="https://github.com/user-attachments/assets/4e41259a-e470-42b8-9fd7-70a1a52f1338" />
 
 <img width="1280" height="1392" alt="image" src="https://github.com/user-attachments/assets/787f0166-0492-447c-a489-6f06435270bd" />
 
