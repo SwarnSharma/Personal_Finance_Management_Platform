@@ -300,6 +300,8 @@ The Personal Finance Management System provides a robust, secure, and scalable s
 
 <img width="1280" height="1392" alt="Screenshot 2026-01-05 223912" src="https://github.com/user-attachments/assets/82d636a3-6ddc-4974-a928-711ca258a5b0" />
 
+<img width="978" height="1391" alt="image" src="https://github.com/user-attachments/assets/f1af630a-7a94-4dd9-b93a-e388a803752a" />
+
 <img width="1280" height="1392" alt="Screenshot 2026-01-05 223944" src="https://github.com/user-attachments/assets/1ef1e023-f0fa-4a87-a8fd-633cbf85bece" />
 
 <img width="2201" height="965" alt="image" src="https://github.com/user-attachments/assets/4e41259a-e470-42b8-9fd7-70a1a52f1338" />
