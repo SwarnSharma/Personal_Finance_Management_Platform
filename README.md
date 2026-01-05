@@ -1,4 +1,4 @@
-📊 # Personal Finance Management System
+📊 Personal Finance Management System
 
 A Java JSP-based Web Application
 
@@ -117,9 +117,7 @@ Server
 Apache Tomcat
 
 🧱 System Architecture
-
 3-Tier Architecture
-
 Presentation Layer
 
 JSP pages
@@ -215,6 +213,7 @@ Robust exception handling
 Transaction-safe financial updates
 
 📂 Project Structure
+
 PersonalFinanceManager/
 ├── src/main/java
 │   ├── com.finance.dao
@@ -247,8 +246,7 @@ Update database credentials in DBConnection.java
 
 Deploy and run on server
 
-Access URL:
-http://localhost:8080/PersonalFinanceManager/
+Access URL: http://localhost:8080/PersonalFinanceManager/
 
 📌 Expected Outcomes
 
@@ -262,4 +260,20 @@ Scalable and maintainable system design
 
 🏁 Conclusion
 
-The Personal Finance Management System provides a robust, secure, and scalable solution for managing personal finances. By following industry-standard practices such as MVC architecture, DAO pattern, transaction management, and strong validation, the project demonstrates both technical proficiency and practical problem-solving skills.
+The Personal Finance Management System provides a robust, secure, and scalable solution for managing personal finances. By following industry-standard practices such as MVC architecture, DAO pattern, transaction management, and strong validation, the project demonstrates technical proficiency and practical problem-solving skills.
+
+📸 Screenshots
+
+<img width="1280" height="1392" alt="Screenshot 2026-01-05 222333" src="https://github.com/user-attachments/assets/302a2c29-697a-421e-87c5-1ccdc314df28" />
+
+<img width="1280" height="1392" alt="Screenshot 2026-01-05 222501" src="https://github.com/user-attachments/assets/a69f8122-c857-42b9-9541-73c93318218d" />
+
+<img width="1280" height="1392" alt="Screenshot 2026-01-05 223912" src="https://github.com/user-attachments/assets/82d636a3-6ddc-4974-a928-711ca258a5b0" />
+
+<img width="1280" height="1392" alt="Screenshot 2026-01-05 223944" src="https://github.com/user-attachments/assets/1ef1e023-f0fa-4a87-a8fd-633cbf85bece" />
+
+<img width="1280" height="1392" alt="image" src="https://github.com/user-attachments/assets/787f0166-0492-447c-a489-6f06435270bd" />
+
+<img width="1280" height="1392" alt="Screenshot 2026-01-05 234343" src="https://github.com/user-attachments/assets/86cebffb-b874-4bc3-b722-3b8bce7dd71f" />
+
+
